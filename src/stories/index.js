@@ -10,6 +10,7 @@ import { StorybookButtons } from './buttons';
 import { StorybookSelectInputs } from './select-inputs';
 import { StorybookTextInputs } from './text-inputs';
 import { StorybookLabeledInputs } from './labeled-inputs';
+import { WizardForm } from './wizard-form';
 
 storiesOf('App', module)
   .add('Original', () => (
@@ -31,5 +32,9 @@ storiesOf('Components', module)
       )
       .add('Labeled Inputs', () =>
         <StorybookLabeledInputs />
+      )
+    storiesOf('Wizard Form', module)
+      .add('Wizard Form', () => 
+        <WizardForm />
       );
     

@@ -1,0 +1,16 @@
+@import '../../../index.css';
+
+.heading-with-subheading {
+    font-family: var(--font-family-regular);
+}
+
+.heading-with-subheading--heading {
+    color: var(--color-blue-1);    
+    font-size: var(--font-size-xl);
+    margin-bottom: 10px;
+}
+
+.heading-with-subheading--subheader {
+    color: var(--color-grey-11);
+    font-size: var(--font-size-regular);
+}

@@ -17,6 +17,17 @@ body {
     line-height: 1.2;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .style-guide-container {
   background-color: var(--color-grey-1);
   padding: 100px;

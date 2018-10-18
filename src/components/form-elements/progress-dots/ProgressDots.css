@@ -1,0 +1,15 @@
+.progress-dot {
+    background: none;
+    background-color: var(--color-grey-2);
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin: 4px;
+    outline: none;
+    width: 12px;
+}
+
+.progress-dot--active {
+    background-color: var(--color-blue-1);
+}
