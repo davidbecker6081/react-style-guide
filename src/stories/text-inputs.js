@@ -12,8 +12,7 @@ export const StorybookTextInputs = () => {
                 <TextInput
                     disabled={false}
                     className="text-input--white"
-                    placeholder="Insert Text Here"
-                    value="" />
+                    placeholder="Insert Text Here" />
                 <TextInput
                     disabled={false}
                     className="text-input--white"
@@ -27,8 +26,7 @@ export const StorybookTextInputs = () => {
                 <TextInput
                     disabled={true}
                     className="text-input--white"
-                    placeholder="Insert Text Here"
-                    value="" />
+                    placeholder="Insert Text Here" />
                 <TextInput
                     disabled={true}
                     className="text-input--white"

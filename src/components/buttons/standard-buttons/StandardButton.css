@@ -14,9 +14,6 @@
     outline: none;
     padding: 0;
     transition: background-color 300ms ease-out;
-
-    /* for style guide only */
-    margin-right: 10px;
 }
 
 /* standard-button default */

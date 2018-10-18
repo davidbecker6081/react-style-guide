@@ -1,0 +1,12 @@
+@import '../../../index.css';
+
+.labeled-input {
+    align-items: flex-start;
+}
+
+.labeled-input--label {
+    color: var(--color-grey-11);
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-regular);
+    margin-bottom: 10px;
+}
