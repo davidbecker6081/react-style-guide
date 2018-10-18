@@ -4,10 +4,12 @@ import { action } from '@storybook/addon-actions';
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/react';
 import '../index.css';
 import '../utilities/layout.css';
+import '../utilities/storybook.css';
 import App from '../App';
 import { StorybookButtons } from './buttons';
 import { StorybookSelectInputs } from './select-inputs';
 import { StorybookTextInputs } from './text-inputs';
+import { StorybookLabeledInputs } from './labeled-inputs';
 
 storiesOf('App', module)
   .add('Original', () => (
@@ -26,5 +28,8 @@ storiesOf('Components', module)
       )
       .add('Text Inputs', () =>
         <StorybookTextInputs />
+      )
+      .add('Labeled Inputs', () =>
+        <StorybookLabeledInputs />
       );
     

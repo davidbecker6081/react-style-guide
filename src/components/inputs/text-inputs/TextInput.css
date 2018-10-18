@@ -14,10 +14,6 @@
     outline: none;
     padding: 8px;
     transition: background-color 300ms ease-out;
-
-    /* Style Guide Only */
-
-    margin-bottom: 10px;
 }
 
 .text-input--white::placeholder {
