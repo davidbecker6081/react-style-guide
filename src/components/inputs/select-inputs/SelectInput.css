@@ -1,0 +1,45 @@
+@import '../../../index.css';
+
+/* select-input--white white borderless select input for use on grey background */
+
+.select-input--white {
+    background-color: var(--color-grey-white);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%23005695'><polygon points='0,0 14,0 7,7'/></svg>");
+    background-position: calc(100% - 13px) 13px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    border: none;
+    color: var(--color-grey-3);
+    cursor: pointer;
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-regular);
+    height: 33px;
+    line-height: normal;
+    outline: none;
+    padding: 8px;
+    padding-right: 40px;
+    transition: background-color 300ms ease-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-input--white[disabled] {
+    cursor: default;
+}
+
+.select-input--white:active,
+.select-input--white:focus,
+.select-input--white:hover {
+    background-color: var(--color-white);
+    transition: background-color 300ms ease-out;
+}
+
+.select-input--white[disabled]:active,
+.select-input--white[disabled]:focus,
+.select-input--white[disabled]:hover {
+    background-color: var(--color-grey-white);
+}
+
+.a-input--layout {
+    margin-left: 20px;
+}

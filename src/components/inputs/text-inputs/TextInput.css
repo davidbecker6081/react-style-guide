@@ -1,0 +1,46 @@
+@import '../../../index.css';
+
+/* text-input--white white borderless text input for use on grey background */
+
+.text-input--white {
+    background-color: var(--color-grey-white);
+    border: none;
+    border-radius: 3px;
+    color: var(--color-grey-3);
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-regular);
+    height: 33px;
+    line-height: normal;
+    outline: none;
+    padding: 8px;
+    transition: background-color 300ms ease-out;
+
+    /* Style Guide Only */
+
+    margin-bottom: 10px;
+}
+
+.text-input--white::placeholder {
+    color: var(--color-grey-2);
+}
+
+.text-input--white:active,
+.text-input--white:focus,
+.text-input--white:hover {
+    background-color: var(--color-white);
+    transition: background-color 300ms ease-out;
+}
+
+.text-input--white[disabled]:active,
+.text-input--white[disabled]:focus,
+.text-input--white[disabled]:hover {
+    background-color: var(--color-grey-white);
+}
+
+.text-input--layout {
+    margin-left: 20px;
+}
+
+
+
+

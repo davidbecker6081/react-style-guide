@@ -1,0 +1,140 @@
+@import '../../../index.css';
+
+.standard-button-with-icon {
+    background-color: var(--color-grey-9);
+    background-image: none;
+    border-radius: 3px;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-small);
+    height: 22px;
+    min-width: 85px;
+    outline: none;
+    padding: 0;
+    transition: background-color 300ms ease-out;
+
+    /* for style guide only */
+    margin-right: 10px;
+}
+
+.button-icon {
+    margin-right: 3px;
+}
+
+/* standard-button default */
+
+.standard-button-with-icon--default:active {
+    background-color: var(--color-grey-9-darker);
+    transition: background-color 300ms ease-out;
+}
+
+.standard-button-with-icon--default:hover,
+.standard-button-with-icon--default:focus {
+    background-color: var(--color-grey-9-dark);
+    transition: background-color 300ms ease-out;
+}
+
+.standard-button-with-icon--default[disabled] {
+    cursor: default;
+    opacity: 0.25;
+}
+
+.standard-button-with-icon--default[disabled]:hover,
+.standard-button-with-icon--default[disabled]:focus,
+.standard-button-with-icon--default[disabled]:active {
+    background-color: var(--color-grey-9);
+}
+
+/* .standard-button-with-icon--blue blue with white text */
+
+.standard-button-with-icon--blue {
+    background-color: var(--color-blue-2);
+    background-image: none;
+    border-radius: 3px;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-small);
+    height: 22px;
+    min-width: 85px;
+    outline: none;
+    padding: 0;
+    transition: background-color 300ms ease-out;
+}
+
+.standard-button-with-icon--blue:active {
+    background-color: var(--color-blue-2-darker);
+    transition: background-color 300ms ease-out;
+}
+
+.standard-button-with-icon--blue:hover,
+.standard-button-with-icon--blue:focus {
+    background-color: var(--color-blue-2-dark);
+    transition: background-color 300ms ease-out;
+}
+
+.standard-button-with-icon--blue[disabled] {
+    cursor: default;
+    opacity: 0.25;
+}
+
+.standard-button-with-icon--blue[disabled]:hover,
+.standard-button-with-icon--blue[disabled]:focus,
+.standard-button-with-icon--blue[disabled]:active {
+    background-color: var(--color-blue-2);
+}
+
+/* .standard-button-with-icon--white-with-blue-outline white with blue outline and text */
+
+.standard-button-with-icon--white-with-blue-outline {
+    background-color: var(--white);
+    background-image: none;
+    border-radius: 3px;
+    border: 1px solid var(--color-blue-1-light);
+    color: var(--color-blue-1-light);
+    cursor: pointer;
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-small);
+    height: 22px;
+    min-width: 85px;
+    outline: none;
+    padding: 0;
+}
+
+.standard-button-with-icon--white-with-blue-outline:active,
+.standard-button-with-icon--white-with-blue-outline:focus,
+.standard-button-with-icon--white-with-blue-outline:hover {
+    border: 1px solid var(--color-blue-1);
+    color: var(--color-blue-1);
+}
+
+.standard-button-with-icon--white-with-blue-outline[disabled] {
+    cursor: default;
+    opacity: 0.25;
+}
+
+.standard-button-with-icon--white-with-blue-outline[disabled]:hover,
+.standard-button-with-icon--white-with-blue-outline[disabled]:focus,
+.standard-button-with-icon--white-with-blue-outline[disabled]:active {
+    border: 1px solid var(--color-blue-1-light);
+    color: var(--color-blue-1-light);
+}
+
+/* .standard-button-with-icon--white-with-black-outline white with black outline and text  */
+.standard-button-with-icon--white-with-black-outline {
+    background-color: var(--white);
+    background-image: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    font-family: var(--font-family-regular);
+    font-size: var(--font-size-small);
+    height: 22px;
+    min-width: 85px;
+    outline: none;
+    padding: 0;
+}
